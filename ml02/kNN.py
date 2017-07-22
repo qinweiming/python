@@ -34,7 +34,7 @@ def classify0(inX,dataSet,labels,k):
     sortedClassCount=sorted(classCount.items(),key=operator.itemgetter(1),reverse=True)
     return sortedClassCount[0][0]
 #inX用与分类的输入向量，输入的训练样本集dataSet,标签向量为labels,最后的参数k表示用于选择最近令法数目
-
+#,,,,,,,,,,,
 a=classify0([0,0],group,labels,3)
 print(a)
 
