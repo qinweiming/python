@@ -67,7 +67,7 @@ def autoNorm(dataSet):
     normDataSet=normDataSet/tile(ranges,(m,1))
     return  normDataSet,ranges,minvals
 
-#normMat,ranges,minVals=autoNorm(dataing)
+normMat,ranges,minVals=autoNorm(datingDataMat)
 
 
 
